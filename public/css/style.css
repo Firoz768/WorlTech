@@ -1,0 +1,79 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar-brand{
+    font-size:xx-large;
+}
+.navbar-brand{
+    color: hsl(208, 49%, 50%);
+    box-shadow: 2px 2px 2px rgba(246, 244, 244, 0.185);
+}
+.hero-text :nth-child(1){
+    color: grey;
+}
+.hero-text :nth-child(2){
+    color: rgb(37, 99, 99);
+    text-shadow: 1px 1px 1px black;
+}
+#as {
+    color: rgb(255, 102, 0);
+}
+.hero-text1 pre{
+    position: relative;
+    left: 15em;
+    bottom: 15em;
+    font-size:large;
+}
+.hero-text{
+    position: absolute;
+    padding: 25px;
+}
+.h4{
+    font-weight:600;
+}
+#navbarSupportedContent :hover{
+    color: orangered;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10em;
+    padding: 2em;
+}
+.card1{
+  box-shadow: 5px 5px 5px rgb(1, 13, 13);
+  font-size: x-large;
+  padding: 2em;
+}
+.card1:hover{
+    background-color: hsl(187, 93%, 33%);
+    cursor:pointer;
+    transition: 0.8s;
+}
+.card2:hover{
+    background-color: hsl(187, 93%, 33%);
+    cursor:pointer;
+    transition: 0.8s;
+}
+.card3:hover{
+    background-color: hsl(187, 93%, 33%);
+    cursor:pointer;
+    transition: 0.8s;
+}
+.card2{
+    box-shadow: 5px 5px 5px rgb(1, 13, 13);
+    font-size: x-large;
+    padding: 2em;
+}
+.card3{
+    box-shadow: 5px 5px 5px rgb(1, 13, 13);
+    font-size: x-large;
+    padding: 2em;
+}
+hr{
+    color: black;
+    font-size: xx-large;
+}
